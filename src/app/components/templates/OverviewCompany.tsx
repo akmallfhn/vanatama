@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function OverviewCompany() {
   return (
-    <div>
+    <section id="about" className="scroll-mt-24">
       <div className="section-root relative flex items-center justify-center bg-white overflow-hidden">
         <div className="section-container flex flex-col w-full items-center p-5 py-10 gap-8 z-10 lg:flex-row lg:justify-between lg:px-0 lg:gap-[64px] lg:py-[60px] lg:max-w-[988px] xl:max-w-[1208px] 2xl:max-w-[1300px]">
           {/* Section Image */}
@@ -30,6 +30,6 @@ export default function OverviewCompany() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
